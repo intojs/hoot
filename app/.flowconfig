@@ -1,0 +1,14 @@
+[ignore]
+.*/app/node_modules/.*
+
+[include]
+.*/app/flow-typed/.*
+.*/app/src/.*
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]

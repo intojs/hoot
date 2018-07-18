@@ -1,0 +1,16 @@
+frontend:
+  build: nginx
+  links:
+    - api:api
+  ports:
+    - "80:80"
+  volumes:
+    - static:/var/www/html
+
+api:
+  build: api
+
+app:
+  build: app
+  volumes:
+    - static:/app/build
