@@ -1,6 +1,6 @@
 // @flow
 import type {AppState} from "../domain/AppState";
-import type {Meta} from "../domain/Meta";
+import type {Meta} from "../domain/meta/Meta";
 import type {Car} from "../domain/Car";
 import {getInitialState} from "./initial-state";
 

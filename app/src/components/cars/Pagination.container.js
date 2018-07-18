@@ -5,7 +5,7 @@ import {Pagination, PaginationItem, PaginationLink} from 'reactstrap';
 import type {AppState} from "../../domain/AppState";
 import type {Page} from "../../domain/Page";
 import {store} from '../../store/store';
-import {getLimit, getNextOffset, getPages, getPrevOffset, isFirstPage, isLastPage} from "../../domain/Meta.service";
+import {getLimit, getNextOffset, getPages, getPrevOffset, isFirstPage, isLastPage} from "../../domain/meta/Meta.service";
 import {getMeta} from "../../domain/AppState.service";
 import {getCarsEffect} from "../../store/car.effects";
 
